@@ -1,0 +1,163 @@
+<TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*"
+            android:gravity="center"
+            >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" 
+    		android:layout_weight="1" 
+    		android:gravity="center"
+    		android:layout_margin="2dp" >
+
+            <TextView 
+                android:id="@+id/srcani"
+                android:text="Srčani udar i šok"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:background="#111111"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+                
+            <TextView 
+                android:id="@+id/glava"
+                android:text="Ozljede glave i napadaji"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center"
+    		android:layout_weight="1"
+    		android:layout_margin="2dp"  >
+            
+            <TextView 
+                android:id="@+id/rane"
+                android:text="Rane i krvarenja"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+            
+            <TextView 
+                android:id="@+id/kosti"
+                android:text="Kosti, mišići i zglobovi"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:background="#111111"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:gravity="center"  >
+            
+            <TextView 
+                android:id="@+id/trovanje"
+                android:text="Trovanje"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:background="#111111"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+            
+            <TextView 
+                android:id="@+id/toplina"
+                android:text="Posljedice topline i hladnoće"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:gravity="center"  >
+            
+            <TextView 
+                android:id="@+id/disanje"
+                android:text="Problemi sa disanjem"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+            
+            <TextView 
+                android:id="@+id/spasavanje"
+                android:text="Postupci za spašavanje života"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:background="#111111"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:gravity="center" >
+            
+            
+            <TextView 
+                android:id="@+id/ostalo"
+                android:text="Ostale hitne situacije"
+                android:padding="8dp"
+                android:textSize="17sp"
+                android:background="#111111"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+            
+            <TextView 
+                android:id="@+id/scene"
+                android:text="Scene nesreće"
+                android:padding="8dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:onClick="onClick"
+				android:clickable="true"
+                />
+        </TableRow>
+
+</TableLayout>
